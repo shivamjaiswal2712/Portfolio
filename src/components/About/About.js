@@ -4,7 +4,6 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import user from "../../Assets/user.jpg";
 import { SKILLS, TOOLS } from "../../Constants";
-// import { TOOLS } from "../../Constants";
 
 const About = () => {
   return (

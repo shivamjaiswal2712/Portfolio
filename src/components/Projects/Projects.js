@@ -19,7 +19,6 @@ const Projects = () => {
               <ProjectCard
                 imgPath={project.image}
                 technologyUsed={project.technologyUsed}
-                // isBlog={false}
                 title={project.name}
                 description={project.description}
                 link={project.url}

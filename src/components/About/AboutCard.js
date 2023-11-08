@@ -11,7 +11,7 @@ const AboutCard = () => {
             Hi Everyone, I am <span className="purple">Shivam Jaiswal </span>
             from <span className="purple"> Nagpur, Maharashtra, India.</span>
             <br />
-            Front End Developer who loves to transform ideas into reality using
+            Full Stack Web Developer who loves to transform ideas into reality using
             code.
             <br />
             Motivated developer with creating
@@ -23,9 +23,6 @@ const AboutCard = () => {
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
-            {/* <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li> */}
             <li className="about-activity"> 
               <ImPointRight /> Travelling
             </li>

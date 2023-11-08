@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import user from "../../Assets/user.jpg";
+import user from "../../Assets/about dev.jpeg";
 import { SKILLS, TOOLS } from "../../Constants";
 
 const About = () => {

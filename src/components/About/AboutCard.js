@@ -11,11 +11,9 @@ const AboutCard = () => {
             Hi Everyone, I am <span className="purple">Shivam Jaiswal </span>
             from <span className="purple"> Nagpur, Maharashtra, India.</span>
             <br />
-            Full Stack Web Developer who loves to transform ideas into reality using
-            code.
-            <br />
-            Motivated developer with creating
-            custom websites with HTML5, CSS3, BootStrap, JavaScript, ReactJs, jQuery.
+            Full Stack Web Developer who loves to transform ideas into reality using code.
+             <br />
+            Motivated developer with creating custom websites with HTML5, CSS3, BootStrap, JavaScript, ReactJs, jQuery.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

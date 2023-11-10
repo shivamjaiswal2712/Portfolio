@@ -35,7 +35,6 @@ const About = () => {
             {SKILLS.map((skill, index) => (
               <Techstack
                 name={skill.name}
-                initialRating={skill.initialRating}
                 key={index}
               />
             ))}

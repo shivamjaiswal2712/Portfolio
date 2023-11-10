@@ -24,8 +24,7 @@ const Home = () => {
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about coding using Javascript and it's Libraries
-                to create awesome projects. 
+                I am passionate about coding using Javascript and it's Libraries to create awesome projects. 
               </p>
 
               <div className="heading-type">
@@ -46,8 +45,7 @@ const Home = () => {
               <h1>Get in Touch</h1>
               <p>
                 {" "}
-                Whether you want to get in touch, or talk about a project
-                collaboration.
+                Whether you want to get in touch, or talk about a project collaboration.
                 <br />
                 <strong>Feel free to connect with me</strong>
               </p>

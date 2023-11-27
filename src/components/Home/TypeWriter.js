@@ -8,6 +8,7 @@ const TypeWriter = () => {
         strings: [
           "Full-Stack Web Developer",
           "Front-End Web Developer.",
+          "Web Developer",
         ],
         autoStart: true,
         loop: true,

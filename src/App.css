@@ -415,9 +415,10 @@ html {
 .footer {
   background-color: #343e47;
   bottom: 0 !important;
+  width: 100% !important;
 }
 .footer-copywright {
-  text-align: center !important;
+  text-align: center;
   margin-top: 20px;
 }
 .footer-copywright h3{
@@ -425,35 +426,38 @@ html {
 }
 
 .footer-body {
-  text-align: center !important;
+  text-align: center;
 }
 
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
+@media (max-width: 375px) {
+  .footer-copywright, .footer-body {
+    text-align: center;
   }
-
-  .footer-body {
-    text-align: center !important;
+  .footer{
+    width: 100%;
   }
 }
 
 .footer h3 {
   font-size: 1em;
   color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
+  width: max-content;
 }
 .footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
   padding: 0 !important;
+  width: max-content;
 }
 
 .blockquote-footer {
   color: #414141 !important;
   font-weight: bold;
+  width: max-content;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -623,7 +627,11 @@ html {
   background-image: var(--section-background-color) !important;
   color: #414141 !important;
 }
-
+.resume-box{
+  width: max-content !important;
+  position: relative;
+  padding-left: 15px;
+}
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -780,6 +788,7 @@ html {
 .download-button {
   background-color: #343e47 !important;
   width: 152px !important;
+  margin-left: 40px;
 }
 
 .download-button:hover {
@@ -800,12 +809,15 @@ html {
   margin-left: 25%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .profile-pic {
     border-radius: 50%;
     height: 80%;
     width: 50%;
     margin-top: 12%;
+    margin-left: 25%;
+  }
+  .download-button{
     margin-left: 25%;
   }
 }
@@ -817,5 +829,8 @@ html {
 @media (max-width: 767px) {
   .skill-tools-wrapper{
     flex-direction: column;
+  }
+  .download-button{
+    margin-left: 50px;
   }
 }

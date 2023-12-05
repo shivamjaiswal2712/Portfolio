@@ -20,7 +20,7 @@ const ResumeNew = () => {
   }, []); 
 
   return (
-    <div style={{marginLeft: "110px"}}>
+    <div className="resume-box">
       <Container fluid className="resume-section"> 
         <Row className="resume">
           <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}> 

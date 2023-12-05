@@ -13,7 +13,7 @@ const ProjectCards = (props) => {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank" className="download-button" style={{margin: "0 40px"}}>
+        <Button variant="primary" href={props.link} target="_blank" className="download-button">
           <BiLinkExternal /> view &nbsp;
         </Button>
       </Card.Body>
